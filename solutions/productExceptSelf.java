@@ -29,7 +29,7 @@ class Solution {
         // for each index i in result array
         for (int i = 0; i < nums.length; i++) {
             // products before nums i and after nums i are multiplied
-            resultArray[i] = prefixArray[i] * postfixProduct[i];
+            resultArray[i] = prefixArray[i] * postfixArray[i];
         }
 
         return resultArray;
