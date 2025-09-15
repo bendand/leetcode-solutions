@@ -1,6 +1,7 @@
 class MinStack {
     // define our stack and minStack
     private Stack<Integer> stack;
+    // the use of minStack here makes accessing minimum value in constant time possible
     private Stack<Integer> minStack;
 
     public MinStack() {
